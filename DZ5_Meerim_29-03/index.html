@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examples</title>
+</head>
+<body>
+<h2>Counter</h2>
+<p>Значение: <span id="counter">0</span></p>
+<button onclick="increment()">+</button>
+<button onclick="decrement()">-</button>
+<p>Результат: <span id="counterResult">0</span></p>
+
+<h2>Calculate</h2>
+<p>num1: <input type="text" id="n1"></p>
+<p>num2: <input type="text" id="n2"></p>
+<button onclick="calculate('+')">+</button>
+<button onclick="calculate('-')">-</button>
+<button onclick="calculate('*')">*</button>
+<button onclick="calculate('/')">/</button>
+<button onclick="calculate('=')">=</button>
+<p>Результат: <span id="calcResult">Result</span></p>
+
+<h2>Dialog box</h2>
+<button id="showPrompt">Show dialog box</button>
+<p id="output"></p>
+
+<script src="app.js"></script>
+</body>
+</html>
